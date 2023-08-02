@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-02T11:39:34.280Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="d4XmeYQdS_jMNraPyN13" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-02T11:41:41.176Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="sC3KapyxIpAZ97LVwCPi" version="21.6.6" type="github">
   <diagram name="Page-1" id="EALyW0HfUWh1p2dWg3um">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -54,6 +54,13 @@
         <mxCell id="0WwBbSKkv-XbToHQlhDI-19" value="La pièce est coincé sur l&#39;OP init part" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="110" y="430" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GhfZNfNVnpTAols7Yy5m-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0WwBbSKkv-XbToHQlhDI-20" target="GhfZNfNVnpTAols7Yy5m-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="1080" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="0WwBbSKkv-XbToHQlhDI-20" value="Sur l&#39;OP &lt;br&gt;dépannage:&lt;br&gt;OP init&lt;br&gt;Type 0&lt;br&gt;Tracking_Id&lt;br&gt;Supplier_Id&lt;br&gt;Component_Id&lt;br&gt;Resultat OK" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="690" y="810" width="120" height="150" as="geometry" />
         </mxCell>
@@ -107,14 +114,33 @@
         <mxCell id="db9tRwMAdbG4arXx4SIP-6" value="&lt;font color=&quot;#ff0000&quot;&gt;&lt;b&gt;L&#39;Identifiant en doublon&lt;/b&gt;&lt;br&gt;&lt;/font&gt;Comparaison les information supplémentaires&lt;br&gt;(ComponentId et SupplierId, etc.)" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="630" width="240" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="GhfZNfNVnpTAols7Yy5m-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="GhfZNfNVnpTAols7Yy5m-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="1000" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1000" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="GhfZNfNVnpTAols7Yy5m-1" value="Redéclanchèrent le DataAvailable&lt;br&gt;sur l&#39;OP initial" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="105" y="520" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GhfZNfNVnpTAols7Yy5m-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="GhfZNfNVnpTAols7Yy5m-5" target="GhfZNfNVnpTAols7Yy5m-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="345" y="1000" />
+              <mxPoint x="400" y="1000" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="GhfZNfNVnpTAols7Yy5m-5" value="Décision&lt;br&gt;&amp;nbsp;à prendre&lt;br&gt;&amp;nbsp;par l&#39;opérateur" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
           <mxGeometry x="290" y="840" width="110" height="80" as="geometry" />
         </mxCell>
         <mxCell id="GhfZNfNVnpTAols7Yy5m-7" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="404" y="860" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GhfZNfNVnpTAols7Yy5m-9" value="" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1070" width="20" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
